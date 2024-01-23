@@ -70,7 +70,7 @@ class DownSampleECG:
         plt.plot(time_data2, ecg2, color="blue", label="Original at "+str(frequency2) + ' Hz')
 
 
-        plt.xlabel("Channel(or Lead) "+channel+ " of an example ECG")
+        plt.xlabel("Channel(or Lead) "+ str(channel)+ " of an example ECG")
         plt.legend(loc='upper center')
         #plt.axis('off')
         # display
